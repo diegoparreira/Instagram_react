@@ -7,28 +7,18 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "history": "^4.10.1",
-<<<<<<< HEAD
     "jest-junit": "^10.0.0",
     "json-server": "^0.16.1",
-=======
->>>>>>> d25b8247e8cf800d86126972fdd32c19769e2a36
     "node-sass": "^4.13.1",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.1.2",
-<<<<<<< HEAD
     "react-scripts": "3.4.1"
   },
   "scripts": {
     "server": "node ./server.js",
     "dev": "concurrently \"react-scripts start\" \"yarn run server\"",
-=======
-    "react-scripts": "3.4.1",
-    "jest-junit": "^10.0.0"
-  },
-  "scripts": {
->>>>>>> d25b8247e8cf800d86126972fdd32c19769e2a36
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -49,11 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-<<<<<<< HEAD
   },
   "devDependencies": {
     "concurrently": "^5.3.0"
-=======
->>>>>>> d25b8247e8cf800d86126972fdd32c19769e2a36
   }
 }
