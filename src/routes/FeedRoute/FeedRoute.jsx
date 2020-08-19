@@ -5,6 +5,7 @@ import Loading from "../../components/Loading";
 
 import Posts from "../../containers/Posts";
 
+<<<<<<< HEAD
 import config from "../../config";
 
 import "./FeedRoute.scss";
@@ -14,6 +15,15 @@ const GET_USERS_URL =
 
 const GET_STORIES_URL =
   `${config.URL}/stories`;
+=======
+import "./FeedRoute.scss";
+
+const GET_USERS_URL =
+  "https://5e7d0266a917d70016684219.mockapi.io/api/v1/users";
+
+const GET_STORIES_URL =
+  "https://5e7d0266a917d70016684219.mockapi.io/api/v1/stories";
+>>>>>>> d25b8247e8cf800d86126972fdd32c19769e2a36
 
 const FeedRoute = () => {
   const [users, setUsers] = useState([]);
@@ -61,7 +71,11 @@ const FeedRoute = () => {
       {users.length !== usersFetched ? (
         <Loading />
       ) : (
+<<<<<<< HEAD
         <Posts posts={posts} key={posts.id} getUserHandler={getUserPostById} />
+=======
+        <Posts posts={posts} getUserHandler={getUserPostById} />
+>>>>>>> d25b8247e8cf800d86126972fdd32c19769e2a36
       )}
     </div>
   );
