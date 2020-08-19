@@ -1,0 +1,18 @@
+
+> instadev@0.1.0 submit /home/rodrigojum/codenation/react-16
+> react-scripts test src/__tests__/submit.test.js --reporters=default --reporters=jest-junit "--watchAll=false"
+
+  console.error node_modules/react-dom/cjs/react-dom.development.js:88
+    Warning: Invalid DOM property `class`. Did you mean `className`?
+        in a (created by LinkAnchor)
+        in LinkAnchor (created by Context.Consumer)
+        in Link (at Post.jsx:22)
+        in div (at Post.jsx:20)
+        in header (at Post.jsx:18)
+        in article (at Post.jsx:14)
+        in Post (at submit.test.js:46)
+        in Router (at submit.test.js:45)
+
+  console.log src/routes/ProfileRoute/ProfileRoute.jsx:23
+    https://5e7d0266a917d70016684219.mockapi.io/api/v1/users?search=undefined
+
